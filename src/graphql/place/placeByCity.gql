@@ -1,0 +1,12 @@
+query placeByCity($country: CountryEnum!, $state: String!, $city: String!) {
+  placeByCity(city: $city, country: $country, state: $state) {
+    city
+    country
+    countryAbbreviation
+    latitude
+    longitude
+    state
+    stateAbbreviation
+    zip
+  }
+}

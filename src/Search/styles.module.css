@@ -1,0 +1,9 @@
+.selectDisplay span {
+  display: none;
+}
+
+.flag {
+  margin-right: 1rem;
+  object-fit: contain;
+  width: 2rem;
+}

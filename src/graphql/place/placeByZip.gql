@@ -1,0 +1,12 @@
+query placeByZip($country: CountryEnum!, $zip: String!) {
+  placeByZip(country: $country, zip: $zip) {
+    city
+    country
+    countryAbbreviation
+    latitude
+    longitude
+    state
+    stateAbbreviation
+    zip
+  }
+}
