@@ -12,3 +12,10 @@ In the project directory, you can run:
 
 Runs the frontend and server app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+## Next steps
+
+- Add zipcode validation depending on the selected country
+- Highlight the zip area
+- Animate map transition
+- Support uri navigation
